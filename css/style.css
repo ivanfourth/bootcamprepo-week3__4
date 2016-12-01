@@ -1,0 +1,68 @@
+.container {
+    float: none;
+    margin:0 auto;
+    width: 960px;
+}
+.container h1 {
+  text-align: center;
+}
+form {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+.field input {
+  width: 35%;
+  height: 30px;
+  margin-bottom: 20px;
+  border:1px solid rgba(0, 1, 0, 1);
+  text-indent: 10px;
+  font-weight: 500;
+}
+.checkboxField {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+}
+.checkboxField input {
+  float: left;
+}
+.checkboxField p {
+  float: left;
+  margin:0 auto 20px 15px;
+  font-size:17px;
+}
+button {
+  clear: both;
+  float: none;
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+  height: 30px;
+  text-transform: uppercase;
+}
+.error {
+    margin-top: -5px;
+    margin-bottom: 10px;
+    color: #ff0000;
+
+}
+
+.ng-dirty.ng-invalid.checkbox {
+    color: #ff0000;
+}
+
+.ng-dirty.ng-invalid,
+.ng-touched.ng-invalid {
+    border-color: #ff0000;
+}
+
+.ng-dirty.ng-valid {
+    border-color: #24B739;
+}
+.successfullySubmitted {
+  text-transform: uppercase;
+  font-size:2em;
+  text-align:center;
+}
